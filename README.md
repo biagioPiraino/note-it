@@ -3,16 +3,17 @@ A note-taking web app built with Go, Vue.js, and MongoDB. Includes a companion n
 
 ## Architecture
 
-The web and Android app clients are served by a Go API developed using the [Gin Framework](https://github.com/gin-gonic/gin).
+The web and Android app clients are supported by a Go API, developed using the [Gin Framework](https://github.com/gin-gonic/gin).
 
-Authorization and authentication are managed using Auth0 as Identity provider.
+Auth0 is used as the Identity Provider for managing authorization and authentication.
 
-The data will be stored in a MongoDB database.
+Data is stored in a MongoDB database, with deployment managed through Terraform.
 
 ## Functionalities
 
-The apps allow users to:
-* View, create, modify and delete categories
-* View, create, modify and delete notes
-* View, create, modify and delete tasks
-* Update the user account information
+Both the web and Android apps share the same functionalities. Users can:
+
+* View, create, modify, and delete categories
+* View, create, modify, and delete notes
+* View, create, modify, and delete tasks
+* Update account information
