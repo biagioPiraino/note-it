@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">note-it</string>
+    <string name="label_notes">Notes</string>
+    <string name="label_tasks">Tasks</string>
+    <string name="route_notes">Notes</string>
+    <string name="route_tasks">Tasks</string>
+    <string name="route_create_note">Create a note</string>
+    <string name="route_create_task">Create a task</string>
+    <string name="route_account">Account</string>
+    <string name="desc_float_create_button">float create button</string>
+    <string name="btn_submit">Submit</string>
+    <string name="placeholder_nickname">Nickname</string>
+    <string name="placeholder_name">Name</string>
+    <string name="placeholder_email">Email</string>
+</resources>

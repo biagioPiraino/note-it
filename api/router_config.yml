@@ -1,0 +1,4 @@
+# Server configuration
+server:
+  host: ""
+  port: 0
